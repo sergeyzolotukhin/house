@@ -7,9 +7,6 @@ import ua.in.sz.house.house.House;
 
 @AllArgsConstructor
 public class SolidFuelBoiler extends Boiler {
-    /**
-     * теплоемкость пеллет — 5 кВт/кг.
-     */
     private static final double HEAT_CAPACITY_OF_PELLET = 4.73 * 1000.0;
 
     @Override
