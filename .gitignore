@@ -3,6 +3,7 @@
 
 # Log file
 *.log
+log*.html
 
 # BlueJ files
 *.ctxt
@@ -11,7 +12,6 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -21,4 +21,33 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
+
+### gradle
+.gradle/
+build/
+
+### ide
+.idea/
+out/
+
+### application
+.bin/
+
+### python
+venv/
+venv1/
+
+#### vagrant
+.vagrant/
+
+#### Security
+#*.ppk
+
+#### Drool IDEA tools
+
+learn-java/library/lib-drool/lib/
+
+#### Antlr
+
+learn-java/library/lib-antlr/src/main/gen/
+
